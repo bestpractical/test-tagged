@@ -34,7 +34,10 @@ App::Prove::Plugin::Tagged - run specifically-tagged tests
     # run tests with any and all tags
     prove
 
-=cut
+=head1 DESCRIPTION
+
+C<App::Prove::Plugin::Tagged> just sets an environment variable,
+C<TEST_TAGGED_TAGS> which L<Test::Tagged> examines.
 
 =head1 SEE ALSO
 
